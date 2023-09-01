@@ -18,7 +18,7 @@ const Header = () => {
       
     <nav>
       <a style={{fontSize:"3vmax", fontWeight:"400"}} href="https://www.ducatindia.com/" target="_blank">Geeks <span style={{color:"#f16522"}}>Invention</span></a>
-      <div className="nav-links" id="navLinks">
+      <div class="nav-links" id="navLinks">
         <i class="fa-solid fa-xmark" onClick={hidemenu}></i>
         <ul>
           <li><Link to={'/home'}>HOME</Link></li>
